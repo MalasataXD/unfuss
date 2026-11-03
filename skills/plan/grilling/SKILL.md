@@ -20,7 +20,7 @@ Facts are yours to find, and decisions are the user's to make. Look up only the 
 This step is done when every question on the frontier needs a decision, not a fact.
 
 - **Slow lookups**: Dispatch a subagent and ask the rest of the frontier now. A running lookup is an unsettled prerequisite, so only the questions downstream of it wait.
-- **Glossary**: Hold the user to the vocabulary it defines, and offer the `domain-modeling` skill so resolved terms and hard-to-reverse decisions are recorded as you go.
+- **Glossary**: Hold the user to the vocabulary it defines, and offer the `domain-modeling` skill so resolved terms are recorded as you go.
 
 ## 2. Ask a round
 
@@ -60,4 +60,4 @@ Repeat steps 2 and 3 until the frontier is empty: every branch visited, and noth
 
 Summarize the settled tree: each decision with its answer, grouped by branch, the smaller calls you made yourself, and anything still open with the reason. Ask the user to confirm it.
 
-The session ends when the user confirms. A correction reopens the decision it touches and returns to step 3.
+The session ends when the user confirms. A correction reopens the decision it touches and returns to step 3. Once confirmed, offer `decision-records` for any decision that might be hard to reverse.

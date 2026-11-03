@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s commit file-pr grilling model-attribution
+npx skills add MalasataXD/skills-v2 -g -s commit decision-records domain-modeling file-pr grilling model-attribution
 ```
 
 The repository is private, so the install needs access to it.
@@ -15,6 +15,8 @@ The repository is private, so the install needs access to it.
 | Skill | Use it when |
 | --- | --- |
 | `commit` | Committing changes |
+| `decision-records` | Recording a hard-to-reverse decision, or changing an existing ADR |
+| `domain-modeling` | Sharpening a term that is fuzzy or clashes with the domain language |
 | `file-pr` | Filing, opening or raising a PR |
 | `grilling` | Stress-testing a plan, decision or design |
 | `model-attribution` | Posting anything under the user's name |
@@ -26,6 +28,8 @@ skills/
 ├── build/
 ├── check/
 ├── plan/
+│   ├── decision-records/
+│   ├── domain-modeling/
 │   └── grilling/
 └── toolbox/
     ├── commit/
