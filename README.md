@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s commit file-pr
+npx skills add MalasataXD/skills-v2 -g -s commit file-pr model-attribution
 ```
 
 The repository is private, so the install needs access to it.
@@ -16,6 +16,7 @@ The repository is private, so the install needs access to it.
 | --- | --- |
 | `commit` | Committing changes |
 | `file-pr` | Filing, opening or raising a PR |
+| `model-attribution` | Posting anything under the user's name |
 
 ## Layout
 

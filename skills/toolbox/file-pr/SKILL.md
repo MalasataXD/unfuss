@@ -55,9 +55,7 @@ Reuse results from this session when they came from the branch head. Otherwise, 
 
 ### Body
 
-<!-- TODO: When `github-attribution` moves to v2, replace the note text in item 1 with a pointer to that skill. -->
-
-1. **Attribution note**: Open with `> [!NOTE]` and `> Filed by <model name> on behalf of <name>.`, using the model's display name and `git config user.name`.
+1. **Attribution note**: Open with the note from `model-attribution`.
 2. **Stacked note** (*Optional*): When stacked, name the PR it sits on and say to merge that first. A blocked PR instead names what it waits on and why merging early would break.
 3. **Breaking changes** (*Optional*): Use a `> [!WARNING]` callout that names each change and what a client must do about it.
 4. **Opening paragraph**: 2-3 sentences that explain what the PR establishes in present tense ("This pull request adds..."), closing with "The most important changes are:".

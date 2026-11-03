@@ -15,7 +15,7 @@ Every skill moves from `cc-plugins` to skills-v2 through the same steps, ending 
 
 1. Copy the three versions into `.blind-test/A`, `B` and `C`, each as `SKILL.md`, along with any reference files. Neutral names hide authorship, which paths like `SKILL.draft.md` and `cc-plugins` would give away.
 2. Use a different letter order from the last round.
-3. Send the brief below to fresh, separate runs of Opus 5.5, GPT-6.1 Sol and Grok 4.7.
+3. Send the brief below to fresh, separate runs of Opus 5.5, GPT-6.1 Sol at `high` effort and Grok 4.7.
 4. Check each report's reasons against the files before counting its ranking. In the `file-pr` round, Grok swapped the labels A and B, and only its reasons showed that.
 5. Delete `.blind-test/` and add the round to the results below.
 
@@ -36,7 +36,7 @@ Be honest and pick a clear winner. Ties aren't allowed.
 
 ## Reading the results
 
-A ranking is an opinion formed from reading the text. No model has followed these skills on real work during a round. A gap that two or more models flag is worth fixing, and a gap only one model flags is judged on its merits. Sol ran at its default `low` effort and Grok at its default `high`, so the runs aren't equal in depth.
+A ranking is an opinion formed from reading the text. No model has followed these skills on real work during a round. A gap that two or more models flag is worth fixing, and a gap only one model flags is judged on its merits. Grok runs at its default `high` effort. Sol's default is `low`, so it is set to `high` to match. The `commit`, `file-pr` and `model-attribution` rounds ran Sol at `low`, so its reports in those rounds are shallower.
 
 ## Results
 
@@ -44,3 +44,4 @@ A ranking is an opinion formed from reading the text. No model has followed thes
 | --- | --- | --- | --- |
 | `commit` | 2026-11-02 | Draft, then original, then MalasataXD's version | The brief favoured the draft. Opus and Sol found that already-staged changes can slip into a commit, and that gap is still open. |
 | `file-pr` | 2026-11-02 | Draft, then original, then MalasataXD's version | Used the neutral brief. Grok's ranking is corrected for its swapped labels. All three flagged the missing rule for several stacking candidates, which is now fixed. |
+| `model-attribution` | 2026-11-03 | Draft, then original, then MalasataXD's version | Letters: A was MalasataXD's version, B the draft and C the original. Sol ran at `low`. No gap was flagged by two models. Grok's point that `gh` writes outside the six listed commands had no rule is now fixed. |
