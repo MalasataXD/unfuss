@@ -16,7 +16,7 @@ Every skill moves from `cc-plugins` to skills-v2 through the same steps, ending 
 1. Copy the three versions into `.blind-test/A`, `B` and `C`, each as `SKILL.md`, along with any reference files. Neutral names hide authorship, which paths like `SKILL.draft.md` and `cc-plugins` would give away.
 2. Use a different letter order from the last round.
 3. Send the brief below to fresh, separate runs of Opus 5.5, GPT-6.1 Sol at `high` effort and Grok 4.7.
-4. Check each report's reasons against the files before counting its ranking. In the `file-pr` round, Grok swapped the labels A and B, and only its reasons showed that.
+4. Check each report's reasons and quotes against the files before counting its ranking. Grok swapped the labels in the `file-pr`, `grilling` and `research` rounds, and only its reasons showed that, so the brief now asks for a quote per version.
 5. Delete `.blind-test/` and add the round to the results below.
 
 Keep the brief free of the scenarios the draft was built to fix. The `commit` round named unattended runs and PowerShell, which favoured the draft.
@@ -28,7 +28,7 @@ Read all three as the agent who would have to follow them on a real <task>, then
 
 Reply with exactly this, in at most 200 words:
 1. Your ranking, such as "B > A > C", and a one-sentence reason for your winner.
-2. The biggest weakness of each version, in one line each.
+2. The biggest weakness of each version, in one line each. Start each line with the letter and a short quote from that version, so the label can be checked.
 3. Anything from a lower-ranked version that the winner should take, or "nothing".
 
 Be honest and pick a clear winner. Ties aren't allowed.
@@ -47,3 +47,4 @@ A ranking is an opinion formed from reading the text. No model has followed thes
 | `model-attribution` | 2026-11-03 | Draft, then original, then MalasataXD's version | Letters: A was MalasataXD's version, B the draft and C the original. Sol ran at `low`. No gap was flagged by two models. Grok's point that `gh` writes outside the six listed commands had no rule is now fixed. |
 | `grilling` | 2026-11-03 | Draft, then original | Only two versions, because MalasataXD's copy matched the original. Letters: A was the draft and B the original. Sol ran at `high`. Grok swapped the labels again, and its ranking is corrected. Opus and Sol flagged that the interview has no depth limit and that the upfront fact pass is too broad, and both are now fixed. |
 | `domain-modeling` and `decision-records` | 2026-11-03 | The split package, then the original | Compared as packages, because the draft splits the original into two skills. Letters: A was the original and B the package. Opus and Grok flagged that the hand-off from `domain-modeling` to `decision-records` is easy to miss, which is now fixed. |
+| `research` | 2026-11-03 | Draft, then original, then MalasataXD's version | Letters: A was MalasataXD's version, B the original and C the draft. Grok swapped A and B, and its ranking is corrected. All three asked for the original's `to-tickets` line and two for `unslop`; both stay out on purpose, because `to-tickets` owns the linking rule. |
