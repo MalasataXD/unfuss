@@ -2,6 +2,8 @@
 
 Every skill moves from `cc-plugins` to skills-v2 through the same steps, ending in a blind review by three models. The review keeps authorship out of the comparison.
 
+Skills in `knowledge/` are leaves: they name no other skill, so each one installs alone. The skills that use them name them instead.
+
 ## Steps
 
 1. **Write.** MalasataXD writes the v2 version as `SKILL.md`.
@@ -48,3 +50,4 @@ A ranking is an opinion formed from reading the text. No model has followed thes
 | `grilling` | 2026-11-03 | Draft, then original | Only two versions, because MalasataXD's copy matched the original. Letters: A was the draft and B the original. Sol ran at `high`. Grok swapped the labels again, and its ranking is corrected. Opus and Sol flagged that the interview has no depth limit and that the upfront fact pass is too broad, and both are now fixed. |
 | `domain-modeling` and `decision-records` | 2026-11-03 | The split package, then the original | Compared as packages, because the draft splits the original into two skills. Letters: A was the original and B the package. Opus and Grok flagged that the hand-off from `domain-modeling` to `decision-records` is easy to miss, which is now fixed. |
 | `research` | 2026-11-03 | Draft, then original, then MalasataXD's version | Letters: A was MalasataXD's version, B the original and C the draft. Grok swapped A and B, and its ranking is corrected. All three asked for the original's `to-tickets` line and two for `unslop`; both stay out on purpose, because `to-tickets` owns the linking rule. |
+| `complexity` and `code-smells` | 2026-11-03 | Drafts, then originals | Compared as packages, and the first round with a quote per version: every label checked out. Letters: A was the drafts and B the originals. Only Opus asked for the links between the two skills back, and they stay out so each installs alone; Grok preferred the deletion test inline. Opus and Grok asked for the "keep it simple" framing. |
