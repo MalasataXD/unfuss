@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s bug-hunt code-smells commit complexity decision-records diagnosing-bugs domain-modeling file-pr grilling model-attribution research review security-check
+npx skills add MalasataXD/skills-v2 -g -s bug-hunt code-smells commit complexity decision-records diagnosing-bugs domain-modeling file-pr grilling model-attribution research review security-check simplify
 ```
 
 The repository is private, so the install needs access to it.
@@ -27,13 +27,15 @@ The repository is private, so the install needs access to it.
 | `research` | Researching an answer that needs real digging, or is worth keeping |
 | `review` | Reviewing code, or running a quality check |
 | `security-check` | Checking code for security problems, or code that touches untrusted input |
+| `simplify` | Simplifying or cleaning up code, or applying project standards to it |
 
 ## Layout
 
 ```text
 skills/
 ├── build/
-│   └── diagnosing-bugs/
+│   ├── diagnosing-bugs/
+│   └── simplify/
 ├── check/
 │   ├── bug-hunt/
 │   ├── review/
