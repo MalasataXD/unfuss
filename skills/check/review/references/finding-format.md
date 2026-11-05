@@ -1,6 +1,6 @@
 # Finding Format
 
-The return contract for the dimension reviewers. Paste this whole file into every sub-agent prompt verbatim: the structure is fixed, the wording inside it is the reviewer's own. `bug-hunt` and `security-check` use the finding block and recommendations on their own, with no scores.
+The return contract for the dimension reviewers. Paste this whole file into every sub-agent prompt verbatim: the structure is fixed, the wording inside it is the reviewer's own.
 
 ## Finding block
 

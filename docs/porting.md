@@ -4,6 +4,14 @@ Every skill moves from `cc-plugins` to skills-v2 through the same steps, ending 
 
 Skills in `knowledge/` are leaves: they name no other skill, so each one installs alone. The skills that use them name them instead.
 
+A skill names another skill, never a file inside it. That file may not be installed, and it moves whenever the other skill is reorganized. When several skills need the same text, each keeps its own copy.
+
+## Copies kept in sync
+
+Change every copy in the same commit:
+
+- **The finding block**: In `review`'s `references/finding-format.md`, `bug-hunt` step 5 and `security-check` step 3.
+
 ## Steps
 
 1. **Write.** MalasataXD writes the v2 version as `SKILL.md`.

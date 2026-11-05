@@ -43,5 +43,21 @@ Present the report in the conversation:
 
 1. **Target**: What was checked, and what it was compared against.
 2. **Safety fact**: The fact and the rung it reached, or why none could be named.
-3. **Findings**: Each one as a finding block from the `review` skill's `references/finding-format.md`, with the category `Bugs` and no score, ordered Act on, Consider, Noted. With none, write "No findings."
+3. **Findings**: Each one as a finding block, ordered Act on, Consider, Noted. With none, write "No findings."
 4. **Closing line**: What ran, and anything you couldn't read or run.
+
+Each finding takes this block:
+
+```markdown
+### <title: name the problem, not the category>
+
+**Recommendation:** Act on / Consider / Noted · **Category:** Bugs · **Where:** `path/file.cs:42` · **Evidence rung:** <prove-it rung>
+
+Why it matters, then the current shape and the suggested one, with code snippets only where prose is less precise.
+```
+
+1. **Act on**: Fix before this ships.
+2. **Consider**: Worth doing, and it can wait.
+3. **Noted**: An observation, with no action expected.
+
+**Where** lists every implicated `file:line`. A problem the change neither caused nor worsened is pre-existing: start its title with `Pre-existing:`, and recommend **Noted** or **Consider**.
