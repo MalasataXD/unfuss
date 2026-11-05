@@ -13,7 +13,7 @@ Settle what you are checking, such as a ref, a path or the working tree, and wha
 
 ## 2. Name the safety fact
 
-Name the one fact the change is safe because of: the claim that, if false, breaks it. "The migration is idempotent." "No caller passes null here." When you can't name one, say so in the report, because the change isn't understood yet.
+Name the change's safety fact, as the `prove-it` skill defines it. When you can't name one, say so in the report, because the change isn't understood yet.
 
 ## 3. Hunt
 
