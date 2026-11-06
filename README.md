@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s bug-hunt code-smells commit complexity decision-records diagnosing-bugs domain-modeling file-pr grilling model-attribution prove-it research review security-check simplify tdd
+npx skills add MalasataXD/skills-v2 -g -s bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling implement model-attribution next-ticket prove-it research review security-check simplify tdd
 ```
 
 The repository is private, so the install needs access to it.
@@ -17,13 +17,16 @@ The repository is private, so the install needs access to it.
 | `bug-hunt` | Hunting for bugs in a change, beyond what a review checks |
 | `code-smells` | Reviewing or refining code |
 | `commit` | Committing changes |
+| `complete-ticket` | Checking a finished ticket against its acceptance criteria |
 | `complexity` | Shaping a plan, a module or a seam, or weighing a shortcut or special case |
 | `decision-records` | Recording a hard-to-reverse decision, or changing an existing ADR |
 | `diagnosing-bugs` | Diagnosing something broken, failing or slow whose cause isn't obvious |
 | `domain-modeling` | Sharpening a term that is fuzzy or clashes with the domain language |
 | `file-pr` | Filing, opening or raising a PR |
 | `grilling` | Stress-testing a plan, decision or design |
+| `implement` | Building an approved plan or ticket |
 | `model-attribution` | Posting anything under the user's name |
+| `next-ticket` | Picking up the next piece of work or the next open ticket |
 | `prove-it` | Judging whether work is done, or backing a claim with evidence |
 | `research` | Researching an answer that needs real digging, or is worth keeping |
 | `review` | Reviewing code, or running a quality check |
@@ -37,10 +40,13 @@ The repository is private, so the install needs access to it.
 skills/
 ├── build/
 │   ├── diagnosing-bugs/
+│   ├── implement/
+│   ├── next-ticket/
 │   ├── simplify/
 │   └── tdd/
 ├── check/
 │   ├── bug-hunt/
+│   ├── complete-ticket/
 │   ├── review/
 │   └── security-check/
 ├── knowledge/
