@@ -28,7 +28,7 @@ This step is done when every changed file belongs to one group or is left out on
 
 ## 3. Draft the message
 
-Every message explains *what* changed and *why* it matters.
+Every message explains *what* changed and *why* it matters, to someone who wasn't in the session. Local planning files, such as tickets, specs and plans, stay out of it, and so does any hint of them, such as a ticket number or "as planned".
 
 ### Title
 
@@ -79,7 +79,7 @@ Pull requests can now be carried to green CI without weakening a test or merging
 
 ## 4. Stage and commit
 
-Stage the group's files by path, leaving out secrets, `.env` files and credentials.
+Stage the group's files by path, leaving out secrets, `.env` files, credentials and local planning files.
 
 Pass the message as one literal block, because stacked `-m` flags turn each line into its own paragraph and a double-quoted block corrupts `$var` and backticks.
 

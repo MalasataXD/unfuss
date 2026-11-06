@@ -34,7 +34,7 @@ Write the body from the diff, not from the log or your memory of the conversatio
 
 - **Full diff**: Read `git diff origin/<base>...HEAD`, plus the files it touches where the diff can't explain the change.
 - **Commits as a guide**: Use commits for grouping, not as a source of truth. A commit can describe an intent the final diff no longer matches.
-- **What stays out**: Squashed or reverted work, and anything the conversation planned that the diff doesn't show.
+- **What stays out**: Squashed or reverted work, and anything the conversation planned that the diff doesn't show. So do local planning files, such as tickets and specs, and any hint of them.
 
 This step is done when every file in the diff is accounted for.
 
