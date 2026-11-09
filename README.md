@@ -59,17 +59,18 @@ skills/
 │   └── prove-it/
 ├── plan/
 │   ├── decision-records/
-│   ├── domain-modeling/
-│   ├── grilling/
-│   ├── prototype/
-│   ├── research/
 │   ├── to-spec/
 │   ├── to-tickets/
 │   └── vet-tickets/
-└── toolbox/
-    ├── commit/
-    ├── file-pr/
-    └── model-attribution/
+├── toolbox/
+│   ├── commit/
+│   ├── file-pr/
+│   └── model-attribution/
+└── understand/
+    ├── domain-modeling/
+    ├── grilling/
+    ├── prototype/
+    └── research/
 ```
 
 Folders without a skill yet hold a `.gitkeep`, because git doesn't track empty folders. Delete it when the first skill lands in that folder.
