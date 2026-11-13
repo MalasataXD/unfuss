@@ -13,7 +13,7 @@ policy:
 ```
 
 1. **`interface.display_name`**: The name shown in Codex's skill lists.
-2. **`interface.short_description`**: A blurb for the list, 25 to 64 characters.
+2. **`interface.short_description`**: A blurb for the list. Codex suggests 25 to 64 characters, but it mirrors the frontmatter `description`, which wins when the two pull apart.
 3. **`interface.default_prompt`**: Optional. One example prompt that names the skill as `$name`.
 4. **`policy.allow_implicit_invocation`**: Set it to `false` for a user-invoked skill, so the skill stays out of the model's context until the user types `$name`. A model-invoked skill leaves the `policy` block out, because the default is `true`.
 5. **`dependencies.tools`**: Optional. The MCP servers the skill needs, each with `type: "mcp"`, `value`, `description`, `transport` and `url`.
