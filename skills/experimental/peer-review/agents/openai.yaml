@@ -1,0 +1,5 @@
+interface:
+  display_name: "Peer Review"
+  short_description: "Use when the user asks for a peer review by other models."
+policy:
+  allow_implicit_invocation: false

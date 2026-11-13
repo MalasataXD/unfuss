@@ -1,0 +1,3 @@
+interface:
+  display_name: "File PR"
+  short_description: "Use when filing, opening or raising a PR."

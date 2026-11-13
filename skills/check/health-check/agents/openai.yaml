@@ -1,0 +1,5 @@
+interface:
+  display_name: "Health Check"
+  short_description: "Use when the user asks for a health check of the codebase."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Wait What"
+  short_description: "Use when the user is lost or confused by your last message, or asks what it means."

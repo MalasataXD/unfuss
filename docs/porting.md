@@ -19,7 +19,7 @@ Change every copy in the same commit:
 3. **Draft.** Write the changes to `SKILL.draft.md` beside `SKILL.md`, and leave `SKILL.md` untouched.
 4. **Blind review.** Run the round described below.
 5. **Apply.** Fix the gaps the review confirmed. A decision made on purpose stands when a reviewer objects without knowing the reason, as with past-tense titles and removing the `unslop` call.
-6. **Promote.** When MalasataXD says so, rename the draft to `SKILL.md` and commit it.
+6. **Promote.** When MalasataXD says so, rename the draft to `SKILL.md`, run `scripts/Sync-OpenAiYaml.ps1`, and commit it.
 
 ## Blind review
 

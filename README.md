@@ -93,6 +93,8 @@ skills/
     └── research/
 ```
 
+Each skill's `agents/openai.yaml` tells Codex its display name and whether it may fire on its own. `scripts/Sync-OpenAiYaml.ps1` writes them from each `SKILL.md`'s frontmatter, so run it after changing a description or `disable-model-invocation`, and `-Check` lists any that drifted.
+
 Folders without a skill yet hold a `.gitkeep`, because git doesn't track empty folders. Delete it when the first skill lands in that folder.
 
 ## License

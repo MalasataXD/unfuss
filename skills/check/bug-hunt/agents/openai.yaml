@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bug Hunt"
+  short_description: "Use when a change needs hunting for bugs."

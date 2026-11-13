@@ -1,0 +1,3 @@
+interface:
+  display_name: "Complexity"
+  short_description: "Use when shaping a plan, a module's interface or a seam, or when something feels like a shortcut or special case."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Diagnosing Bugs"
+  short_description: "Use when something is broken, failing or slow, and the cause isn't obvious."

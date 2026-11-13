@@ -1,0 +1,3 @@
+interface:
+  display_name: "Writing for Humans"
+  short_description: "Use when writing or tightening a document a human will read, such as a spec, a report, a README or a PR description."

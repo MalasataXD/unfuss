@@ -1,0 +1,3 @@
+interface:
+  display_name: "Simplify"
+  short_description: "Use when simplifying or cleaning up code, or applying project standards to it."

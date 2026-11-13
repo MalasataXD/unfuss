@@ -1,0 +1,3 @@
+interface:
+  display_name: "Decision Records"
+  short_description: "Use when a hard-to-reverse decision is made, or an existing ADR needs to change."

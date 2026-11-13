@@ -1,0 +1,3 @@
+interface:
+  display_name: "Prototype"
+  short_description: "Use when the user wants to try something out before it's built for real."
