@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket prototype prove-it research retro review security-check simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents
+npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket prototype prove-it research retro review security-check simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
 The repository is private, so the install needs access to it.
@@ -43,6 +43,7 @@ The repository is private, so the install needs access to it.
 | `vet-tickets` | Checking tickets, or a breakdown, for gaps a builder would stall on |
 | `wait-what` | Re-explaining a message that lost you |
 | `writing-for-agents` | Writing or editing a skill, an `AGENTS.md` or a `CLAUDE.md` |
+| `writing-for-humans` | Writing or tightening a document people will read |
 
 ## Layout
 
@@ -78,7 +79,8 @@ skills/
 │   ├── file-pr/
 │   ├── handoff/
 │   ├── model-attribution/
-│   └── wait-what/
+│   ├── wait-what/
+│   └── writing-for-humans/
 └── understand/
     ├── domain-modeling/
     ├── grilling/
