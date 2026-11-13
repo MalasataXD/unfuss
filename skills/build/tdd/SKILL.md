@@ -1,6 +1,6 @@
 ---
 name: tdd
-description: Use when building a feature or fixing a bug test-first, or when TDD comes up.
+description: Use when building or fixing test-first, or when TDD comes up.
 ---
 
 # Test-driven development

@@ -1,6 +1,6 @@
 ---
 name: diagnosing-bugs
-description: Use when something is broken, failing or slow, and the cause isn't obvious.
+description: Use when something is broken or slow for no obvious reason.
 ---
 
 # Diagnosing bugs

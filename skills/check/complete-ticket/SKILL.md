@@ -1,6 +1,6 @@
 ---
 name: complete-ticket
-description: Use when a ticket's implementation is done and needs checking against its acceptance criteria.
+description: Use when a finished ticket needs checking against its criteria.
 ---
 
 # Complete ticket

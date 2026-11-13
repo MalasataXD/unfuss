@@ -1,6 +1,6 @@
 ---
 name: simplify
-description: Use when simplifying or cleaning up code, or applying project standards to it.
+description: Use when simplifying code, or applying project standards to it.
 ---
 
 # Simplify

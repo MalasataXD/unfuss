@@ -1,6 +1,6 @@
 ---
 name: next-ticket
-description: Use when picking up the next piece of work or the next open ticket.
+description: Use when picking up the next piece of work or open ticket.
 ---
 
 # Next ticket

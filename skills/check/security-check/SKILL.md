@@ -1,6 +1,6 @@
 ---
 name: security-check
-description: Use when code needs a security check, or touches untrusted input.
+description: Use when code needs a security check or touches untrusted input.
 ---
 
 # Security check

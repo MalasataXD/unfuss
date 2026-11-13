@@ -1,6 +1,6 @@
 ---
 name: prove-it
-description: Use when judging whether work is done, or backing a claim with evidence.
+description: Use when judging whether work is done, or backing a claim.
 ---
 
 # Prove it

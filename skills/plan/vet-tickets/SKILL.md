@@ -1,6 +1,6 @@
 ---
 name: vet-tickets
-description: Use when tickets need a sanity check, or a breakdown needs checking for gaps.
+description: Use when tickets or a breakdown need checking for gaps.
 ---
 
 # Vet tickets

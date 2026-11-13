@@ -1,6 +1,6 @@
 ---
 name: prototype
-description: Use when the user wants to try something out before it's built for real.
+description: Use when trying something out before it's built for real.
 ---
 
 # Prototype

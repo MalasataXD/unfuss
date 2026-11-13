@@ -1,6 +1,6 @@
 ---
 name: wait-what
-description: Use when the user is lost or confused by your last message, or asks what it means.
+description: Use when the user is lost, or asks what your last message means.
 ---
 
 # Wait, what

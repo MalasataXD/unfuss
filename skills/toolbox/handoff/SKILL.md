@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: Use when the user asks for a handoff of the current conversation to another agent.
+description: Use when the user asks for a handoff to another agent.
 argument-hint: "What will the next session be used for?"
 disable-model-invocation: true
 ---

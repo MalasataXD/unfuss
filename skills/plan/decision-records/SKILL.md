@@ -1,6 +1,6 @@
 ---
 name: decision-records
-description: Use when a hard-to-reverse decision is made, or an existing ADR needs to change.
+description: Use when making a hard-to-reverse decision, or changing an ADR.
 ---
 
 # Decision records
