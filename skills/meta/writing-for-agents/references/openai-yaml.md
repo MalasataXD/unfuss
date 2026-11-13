@@ -5,7 +5,7 @@ Codex reads `agents/openai.yaml` beside a skill's `SKILL.md`. It is config for t
 ```yaml
 interface:
   display_name: "Retro"
-  short_description: "Look back at a session for what to improve"
+  short_description: "Use when the user asks for a retrospective on a coding session."
   default_prompt: "Use $retro to look back at this session for friction."
 
 policy:
