@@ -5,7 +5,7 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 ## Install
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
+npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
 The repository is private, so the install needs access to it.
@@ -30,6 +30,7 @@ The repository is private, so the install needs access to it.
 | `implement` | Building an approved plan or ticket |
 | `model-attribution` | Posting anything under the user's name |
 | `next-ticket` | Picking up the next piece of work or the next open ticket |
+| `peer-review` | Getting a cold review from other models, when you ask for it |
 | `prototype` | Trying something out before it's built for real |
 | `prove-it` | Judging whether work is done, or backing a claim with evidence |
 | `research` | Researching an answer that needs real digging, or is worth keeping |
@@ -63,6 +64,7 @@ skills/
 │   ├── review/
 │   └── security-check/
 ├── experimental/
+│   ├── peer-review/
 │   └── ship/
 ├── knowledge/
 │   ├── code-smells/
