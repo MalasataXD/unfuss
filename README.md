@@ -11,13 +11,13 @@ The repository is private, so either route needs access to it. Use one route per
 For Claude Code, Codex and other agents, with the [`skills` CLI](https://github.com/vercel-labs/skills). Leave out the names of any skills you don't want:
 
 ```shell
-npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
+npx skills add MalasataXD/unfuss -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
 For Claude Code only, as the plugin `unfuss`, whose skills you type with a prefix, as in `/unfuss:commit`:
 
 ```shell
-claude plugin marketplace add MalasataXD/skills-v2
+claude plugin marketplace add MalasataXD/unfuss
 claude plugin install unfuss@unfuss
 ```
 

@@ -1,6 +1,6 @@
 # Porting a skill
 
-Every skill moves from `cc-plugins` to skills-v2 through the same steps, ending in a blind review by three models. The review keeps authorship out of the comparison.
+Every skill moves from `cc-plugins` to unfuss through the same steps, ending in a blind review by three models. The review keeps authorship out of the comparison.
 
 Skills in `knowledge/` are leaves: they name no other skill, so each one installs alone. The skills that use them name them instead.
 
