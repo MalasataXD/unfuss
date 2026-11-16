@@ -14,7 +14,7 @@ Or as the Claude Code plugin `marble`, which prefixes each skill with `marble:`:
 
 ```shell
 claude plugin marketplace add MalasataXD/skills-v2
-claude plugin install marble@skills-v2
+claude plugin install marble@marble
 ```
 
 Pick one route for Claude Code, because both together load every skill twice. The repository is private, so either install needs access to it.
