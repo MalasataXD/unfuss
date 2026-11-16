@@ -8,6 +8,7 @@
   "plugins": [
     {
       "name": "unfuss",
+      "version": "0.1.0",
       "source": "./",
       "description": "Every skill in the library, experimental ones included.",
       "skills": [
