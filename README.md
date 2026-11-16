@@ -4,11 +4,20 @@ Version 2 of my personal skills for Claude Code and Codex. Skills move here from
 
 ## Install
 
+With the [`skills` CLI](https://github.com/vercel-labs/skills), for Claude Code, Codex and other agents:
+
 ```shell
 npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
-The repository is private, so the install needs access to it.
+Or as a Claude Code plugin, which prefixes each skill with `skills-v2:`:
+
+```shell
+claude plugin marketplace add MalasataXD/skills-v2
+claude plugin install skills-v2@skills-v2
+```
+
+Pick one route for Claude Code, because both together load every skill twice. The repository is private, so either install needs access to it.
 
 ## Skills
 

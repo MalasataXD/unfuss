@@ -1,0 +1,49 @@
+{
+  "name": "skills-v2",
+  "description": "Personal skills for planning, building, checking and shipping code, for Claude Code and Codex.",
+  "owner": {
+    "name": "Mads Hylleberg Nielsen",
+    "url": "https://github.com/MalasataXD"
+  },
+  "plugins": [
+    {
+      "name": "skills-v2",
+      "source": "./",
+      "description": "Every skill in the library, experimental ones included.",
+      "skills": [
+        "./skills/build/diagnosing-bugs",
+        "./skills/build/implement",
+        "./skills/build/next-ticket",
+        "./skills/build/simplify",
+        "./skills/build/tdd",
+        "./skills/check/bug-hunt",
+        "./skills/check/complete-ticket",
+        "./skills/check/health-check",
+        "./skills/check/review",
+        "./skills/check/security-check",
+        "./skills/experimental/peer-review",
+        "./skills/experimental/ship",
+        "./skills/knowledge/code-smells",
+        "./skills/knowledge/complexity",
+        "./skills/knowledge/prove-it",
+        "./skills/meta/retro",
+        "./skills/meta/writing-for-agents",
+        "./skills/plan/decision-records",
+        "./skills/plan/to-spec",
+        "./skills/plan/to-tickets",
+        "./skills/plan/vet-tickets",
+        "./skills/toolbox/babysit-pr",
+        "./skills/toolbox/commit",
+        "./skills/toolbox/file-pr",
+        "./skills/toolbox/handoff",
+        "./skills/toolbox/model-attribution",
+        "./skills/toolbox/wait-what",
+        "./skills/toolbox/writing-for-humans",
+        "./skills/understand/domain-modeling",
+        "./skills/understand/grilling",
+        "./skills/understand/prototype",
+        "./skills/understand/research"
+      ]
+    }
+  ]
+}
