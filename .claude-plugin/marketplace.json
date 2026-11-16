@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "skills-v2",
+      "name": "marble",
       "source": "./",
       "description": "Every skill in the library, experimental ones included.",
       "skills": [

@@ -10,11 +10,11 @@ With the [`skills` CLI](https://github.com/vercel-labs/skills), for Claude Code,
 npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
-Or as a Claude Code plugin, which prefixes each skill with `skills-v2:`:
+Or as the Claude Code plugin `marble`, which prefixes each skill with `marble:`:
 
 ```shell
 claude plugin marketplace add MalasataXD/skills-v2
-claude plugin install skills-v2@skills-v2
+claude plugin install marble@skills-v2
 ```
 
 Pick one route for Claude Code, because both together load every skill twice. The repository is private, so either install needs access to it.
