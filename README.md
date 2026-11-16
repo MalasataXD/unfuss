@@ -8,7 +8,7 @@ This is the second version. Skills moved here one at a time from [`cc-plugins`](
 
 ## Install
 
-The repository is private, so either route needs access to it. Use one route per agent, because in Claude Code the two together load every skill twice.
+Use one route per agent, because in Claude Code the two together load every skill twice.
 
 For Claude Code, Codex and other agents, with the [`skills` CLI](https://github.com/vercel-labs/skills). Leave out the names of any skills you don't want:
 
