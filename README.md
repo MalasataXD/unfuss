@@ -1,4 +1,4 @@
-# skills-v2
+# unfuss
 
 Version 2 of my personal skills for Claude Code and Codex. Skills move here from [`cc-plugins`](https://github.com/MalasataXD/cc-plugins) one at a time, and each one passes a [blind model review](docs/porting.md) on the way.
 
@@ -10,11 +10,11 @@ With the [`skills` CLI](https://github.com/vercel-labs/skills), for Claude Code,
 npx skills add MalasataXD/skills-v2 -g -s babysit-pr bug-hunt code-smells commit complete-ticket complexity decision-records diagnosing-bugs domain-modeling file-pr grilling handoff health-check implement model-attribution next-ticket peer-review prototype prove-it research retro review security-check ship simplify tdd to-spec to-tickets vet-tickets wait-what writing-for-agents writing-for-humans
 ```
 
-Or as the Claude Code plugin `marble`, which prefixes each skill with `marble:`:
+Or as the Claude Code plugin `unfuss`, which prefixes each skill with `unfuss:`:
 
 ```shell
 claude plugin marketplace add MalasataXD/skills-v2
-claude plugin install marble@marble
+claude plugin install unfuss@unfuss
 ```
 
 Pick one route for Claude Code, because both together load every skill twice. The repository is private, so either install needs access to it.

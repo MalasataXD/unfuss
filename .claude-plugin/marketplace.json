@@ -1,5 +1,5 @@
 {
-  "name": "marble",
+  "name": "unfuss",
   "description": "Personal skills for planning, building, checking and shipping code, for Claude Code and Codex.",
   "owner": {
     "name": "Mads Hylleberg Nielsen",
@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "marble",
+      "name": "unfuss",
       "source": "./",
       "description": "Every skill in the library, experimental ones included.",
       "skills": [
