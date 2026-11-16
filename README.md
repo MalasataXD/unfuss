@@ -1,3 +1,5 @@
+<img src="assets/logo.svg" width="64" alt="">
+
 # unfuss
 
 Skills that help a coding agent take a piece of work from a rough idea to a merged pull request, with no more fuss than the work needs. They run in Claude Code and Codex. I wrote them for my own projects, so they follow how I work: an idea is stress-tested before it's built, work is split into tickets, and nothing ships without a review.
